@@ -1,0 +1,7 @@
+# flow.yaml
+
+appId: your.app.id
+---
+- launchApp
+- assertVisible:
+  id: 'welcome-text'

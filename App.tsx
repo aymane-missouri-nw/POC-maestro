@@ -34,6 +34,7 @@ function Section({children, title}: SectionProps): JSX.Element {
   return (
     <View style={styles.sectionContainer}>
       <Text
+        testID='welcome-text'
         style={[
           styles.sectionTitle,
           {
